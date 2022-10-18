@@ -1,0 +1,161 @@
+#corpo {
+    padding: 0px;
+    margin: 0px;
+}
+
+#cabecalho {
+    background-color: #110958;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    align-content: center;
+    padding: 20px;
+}
+
+#h1DoCabecalho {
+    color: #fff;
+    font-family: Impact;
+    font-size: 32px;
+    text-decoration: none;
+}
+
+/*#navDoCabecalho {
+}*/
+
+#ulDoNavDocabecalho{
+    list-style: none;
+    display: flex;
+    margin: 0px;
+}
+
+/*.lisDoUlDoNavDoCabecalho {
+
+}*/
+
+.asDosLisdoUlDoNavDoCabecalho { 
+    color: #fff;
+    text-decoration: none;
+    font-family: Sans-serif, Verdana, Tahoma;
+    font-size: 16px;
+    padding: 10px;
+}
+
+/*#conteudoPrincipal {
+}*/
+
+
+#section1DoConteudoPrincipal{
+    background-color: #110958;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 161px;
+    padding-bottom: 150px;
+}
+
+#h1DoSection1DoConteudoPrincipal {
+    color: #fff;
+    font-family: Sans-serif, Verdana, Tahoma;
+    font-size: 50px;
+    margin-top: 0px;
+    margin-bottom: 10px;
+}
+
+#pDoSection1DoConteudoPrincipal{    
+    color: #fff;
+    font-family: Sans-serif, Verdana, Tahoma;
+    font-size: 25px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#aDoSection1DoConteudoPrincipal{
+    background-color: #f77825;
+    color: #fff;
+    text-decoration: none;
+    font-family: Sans-serif, Verdana, Tahoma;
+    font-size: 20px;
+    margin-top: 25px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 90px;
+    padding-right: 90px;
+    border-radius: 15px;
+}
+
+#section2DoConteudoPrincipal{
+    background-color: #110958;
+}
+
+#divDeTudoDaSection2DoConteudoPrincipal{
+    margin-left: 85px;
+    margin-right: 85px;
+}
+
+#divDosButtonsDaSection2DoConteudoPrincipal {
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    border-bottom-style: solid;
+    border-color: #000032;
+    border-bottom-width: 1px;
+}
+
+.buttonsDaSection2DoConteudoPrincipal {
+    background-color: #110958;
+    color: #fff;
+    font-family: Sans-serif, Verdana, Tahoma;
+    font-size: 22px;
+    font-weight: bold;
+    border-width: 0px;
+    padding: 50px;
+}
+
+#buttonFormacao{
+    border-bottom-style: solid;
+    border-bottom-width: 3px;
+    border-bottom-color: #f77825;
+}
+
+#divDopDaSection2DoConteudoPrincipal{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 45px;
+}
+
+#pDaSection2DoConteudoPrincipal{
+    color:#fff;
+    font-family: Sans-serif, Verdana, Tahoma;
+    font-size: 22px;
+    margin-top: 25px;
+}
+
+/*#rodape{
+}*/
+
+#NavDoRodape{
+    background-color: #110958;
+    display: flex;
+    justify-content: center;
+    border-top: solid black 1px;
+
+}
+
+.lisDosUlsDaNavDoRodape{
+    list-style: none;
+}
+
+.h3sDosUlsDaNavDoRodape{
+    color:#fff;
+    font-family: Sans-serif, Verdana, Tahoma;
+    font-weight: bold;
+}
+
+.asDoslisDosUlsDaNavDoRodape{
+    color: #fff;
+    text-decoration: none;
+    font-family: Sans-serif, Verdana, Tahoma;
+    font-size: 15px;
+    
+}
