@@ -134,26 +134,16 @@
 /*#rodape{
 }*/
 
-#NavDoRodape{
+#rodape{
     background-color: #110958;
     display: flex;
-    flex-direction: row;
+    justify-content: end;
 }
 
-.lisDosUlsDaNavDoRodape{
-    list-style: none;
-}
-
-.h3sDosUlsDaNavDoRodape{
-    color:#fff;
-    font-family: Sans-serif, Verdana, Tahoma;
-    font-weight: bold;
-}
-
-.asDoslisDosUlsDaNavDoRodape{
-    color: #fff;
-    text-decoration: none;
-    font-family: Sans-serif, Verdana, Tahoma;
-    font-size: 15px;
-    
+#whatsaapBussines{
+    margin-right: 10px;
+    margin-bottom: 10px;
+    position: fixed;
+    bottom: 0;
+    right: 0;
 }
