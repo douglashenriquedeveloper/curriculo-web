@@ -1,57 +1,39 @@
+:root {
+    --corDeFundo: #110958;
+    --corDaLetra: #fff;
+    --corDeDestaque: #f77825;
+    --estiloDaFonte: Sans-serif, Verdana, Tahoma;
+}
+
 #corpo {
     padding: 0px;
     margin: 0px;
-    max-width: 862px;
-    min-width: 320px;
-    margin: auto;
-    background-color: #110958;
+    background-color: black;
 }
 
 #cabecalho {
-    background-color: #110958;
+    background-color: var(--corDeFundo);
     display: flex;
-    justify-content: space-between;
     align-items: center;
     align-content: center;
-    padding: 20px;
-}
-
-@media (min-width: 320px) and (max-width: 862px) {
-    #cabecalho {
-        padding-left: 3px;
-        padding-right: 5px;
-    }
+    justify-content: space-around;
 }
 
 #h1DoCabecalho {
-    color: #fff;
+    color: var(--corDaLetra);
     font-family: Impact;
     font-size: 32px;
     text-decoration: none;
-    padding-left: 60px;
 }
 
-@media (min-width: 320px) and (max-width: 862px) {
-    #h1DoCabecalho {
-        font-size: 22px;
-        padding-left: 0px;
-    }
+#navDoCabecalho {
+    display: flex;
+    align-items: flex-end;
 }
-
-/*#navDoCabecalho {
-}*/
 
 #ulDoNavDocabecalho {
     list-style: none;
     display: flex;
-    margin: 0px;
-    padding-right: 50px;
-}
-
-@media (min-width: 320px) and (max-width: 862px) {
-    #ulDoNavDocabecalho {
-        padding-right: 0px;
-    }
 }
 
 /*.lisDoUlDoNavDoCabecalho {
@@ -59,26 +41,18 @@
 }*/
 
 .asDosLisdoUlDoNavDoCabecalho {
-    color: #fff;
+    color: var(--corDaLetra);
     text-decoration: none;
-    font-family: Sans-serif, Verdana, Tahoma;
+    font-family: var(--estiloDaFonte);
     font-size: 16px;
     padding: 10px;
-}
-
-@media (min-width: 320px) and (max-width: 862px) {
-    .asDosLisdoUlDoNavDoCabecalho {
-    font-size: 14px;
-    padding-right: 0px;
-    }
 }
 
 /*#conteudoPrincipal {
 }*/
 
-
 #section1DoConteudoPrincipal {
-    background-color: #110958;
+    background-color: var(--corDeFundo);
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -87,39 +61,27 @@
 }
 
 #h1DoSection1DoConteudoPrincipal {
-    color: #fff;
-    font-family: Sans-serif, Verdana, Tahoma;
+    color: var(--corDaLetra);
+    font-family: var(--estiloDaFonte);
     font-size: 50px;
     margin-top: 0px;
     margin-bottom: 10px;
 }
 
-@media (min-width: 320px) and (max-width: 862px) {
-    #h1DoSection1DoConteudoPrincipal {
-        font-size: 34px;
-    }
-}
-
 #pDoSection1DoConteudoPrincipal {
-    color: #fff;
-    font-family: Sans-serif, Verdana, Tahoma;
+    color: var(--corDaLetra);
+    font-family: var(--estiloDaFonte);
     font-size: 25px;
     margin-top: 10px;
     margin-bottom: 10px;
     text-align: center;
 }
 
-@media(min-width: 320px) and (max-width: 862px) {
-    #pDoSection1DoConteudoPrincipal {
-        font-size: 20px;
-    }
-}
-
 #aDoSection1DoConteudoPrincipal {
-    background-color: #f77825;
-    color: #fff;
+    background-color: var(--corDeDestaque);
+    color: var(--corDaLetra);
     text-decoration: none;
-    font-family: Sans-serif, Verdana, Tahoma;
+    font-family: var(--estiloDaFonte);
     font-size: 20px;
     margin-top: 25px;
     padding-top: 15px;
@@ -130,7 +92,7 @@
 }
 
 #section2DoConteudoPrincipal {
-    background-color: #110958;
+    background-color: var(--corDeFundo);
 }
 
 #divDeTudoDaSection2DoConteudoPrincipal {
@@ -148,9 +110,9 @@
 }
 
 .buttonsDaSection2DoConteudoPrincipal {
-    background-color: #110958;
-    color: #fff;
-    font-family: Sans-serif, Verdana, Tahoma;
+    background-color: var(--corDeFundo);
+    color: var(--corDaLetra);
+    font-family: var(--estiloDaFonte);
     font-size: 22px;
     font-weight: bold;
     border-width: 0px;
@@ -160,7 +122,7 @@
 #buttonFormacao {
     border-bottom-style: solid;
     border-bottom-width: 3px;
-    border-bottom-color: #f77825;
+    border-bottom-color: var(--corDeDestaque);
 }
 
 #divDopDaSection2DoConteudoPrincipal {
@@ -171,8 +133,8 @@
 }
 
 #pDaSection2DoConteudoPrincipal {
-    color: #fff;
-    font-family: Sans-serif, Verdana, Tahoma;
+    color: var(--corDaLetra);
+    font-family: var(--estiloDaFonte);
     font-size: 22px;
     margin-top: 25px;
 }
@@ -181,7 +143,7 @@
 }*/
 
 #rodape {
-    background-color: #110958;
+    background-color: var(--corDeFundo);
     display: flex;
     justify-content: end;
 }
@@ -193,3 +155,4 @@
     bottom: 0;
     right: 0;
 }
+
