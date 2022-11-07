@@ -1,0 +1,12 @@
+:root {
+    --corDeFundo: #110958;
+    --corDaLetra: #fff;
+    --corDeDestaque: #f77825;
+    --estiloDaFonte: Sans-serif, Verdana, Tahoma;
+}
+
+#corpo {
+    padding: 0px;
+    margin: 0px;
+    background-color: black;
+}

@@ -1,0 +1,36 @@
+#cabecalho {
+    background-color: var(--corDeFundo);
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: space-around;
+}
+
+#h1DoCabecalho {
+    color: var(--corDaLetra);
+    font-family: Impact;
+    font-size: 32px;
+    text-decoration: none;
+}
+
+#navDoCabecalho {
+    display: flex;
+    align-items: flex-end;
+}
+
+#ulDoNavDocabecalho {
+    list-style: none;
+    display: flex;
+}
+
+/*.lisDoUlDoNavDoCabecalho {
+
+}*/
+
+.asDosLisdoUlDoNavDoCabecalho {
+    color: var(--corDaLetra);
+    text-decoration: none;
+    font-family: var(--estiloDaFonte);
+    font-size: 16px;
+    padding: 10px;
+}
