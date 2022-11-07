@@ -48,8 +48,9 @@
     padding: 10px;
 }
 
-/*#conteudoPrincipal {
-}*/
+#conteudoPrincipal {
+    background-color: var(--corDeFundo);
+}
 
 #section1DoConteudoPrincipal {
     background-color: var(--corDeFundo);
