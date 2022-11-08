@@ -1,21 +1,14 @@
 #cabecalho {
-    background-color: var(--corDeFundo);
     display: flex;
     align-items: center;
-    align-content: center;
     justify-content: space-around;
 }
 
-#h1DoCabecalho {
-    color: var(--corDaLetra);
+#h1-header {
+    color: var(--geral-color);
     font-family: Impact;
-    font-size: 32px;
+    font-size: var(--header-h1-font-size);
     text-decoration: none;
-}
-
-#navDoCabecalho {
-    display: flex;
-    align-items: flex-end;
 }
 
 #ulDoNavDocabecalho {
@@ -23,14 +16,10 @@
     display: flex;
 }
 
-/*.lisDoUlDoNavDoCabecalho {
-
-}*/
-
 .asDosLisdoUlDoNavDoCabecalho {
-    color: var(--corDaLetra);
+    color: var(--geral-color);
+    font-family: var(--header-fonte-family);
+    font-size: var(--header-p-font-size);
     text-decoration: none;
-    font-family: var(--estiloDaFonte);
-    font-size: 16px;
     padding: 10px;
 }

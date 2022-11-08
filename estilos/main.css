@@ -1,91 +1,47 @@
-#conteudoPrincipal {
+#main {
     background-color: var(--corDeFundo);
 }
 
-#section1DoConteudoPrincipal {
+#section-um-main {
     background-color: var(--corDeFundo);
     display: flex;
     flex-direction: column;
-    align-items: center;
-    padding-top: 161px;
+    padding-top: 150px;
     padding-bottom: 150px;
 }
 
-#h1DoSection1DoConteudoPrincipal {
+#h1-section-um-main {
     color: var(--corDaLetra);
     font-family: var(--estiloDaFonte);
-    font-size: 50px;
+    font-size: var(--h1-font-size);
     margin-top: 0px;
     margin-bottom: 10px;
 }
 
-#pDoSection1DoConteudoPrincipal {
+#p-section-um-main {
     color: var(--corDaLetra);
     font-family: var(--estiloDaFonte);
-    font-size: 25px;
+    font-size: var(--p-font-size);
     margin-top: 10px;
     margin-bottom: 10px;
-    text-align: center;
 }
 
-#aDoSection1DoConteudoPrincipal {
-    background-color: var(--corDeDestaque);
+#a-section-um-main  {
     color: var(--corDaLetra);
     text-decoration: none;
+    text-align: center;
     font-family: var(--estiloDaFonte);
     font-size: 20px;
+    border: solid 1px var(--corDaLetra);
     margin-top: 25px;
     padding-top: 15px;
     padding-bottom: 15px;
     padding-left: 90px;
     padding-right: 90px;
     border-radius: 15px;
+    width: 150px;
 }
 
-#section2DoConteudoPrincipal {
-    background-color: var(--corDeFundo);
-}
 
-#divDeTudoDaSection2DoConteudoPrincipal {
-    margin-left: 85px;
-    margin-right: 85px;
-}
 
-#divDosButtonsDaSection2DoConteudoPrincipal {
-    display: flex;
-    justify-content: space-between;
-    align-content: center;
-    border-bottom-style: solid;
-    border-color: #000032;
-    border-bottom-width: 1px;
-}
 
-.buttonsDaSection2DoConteudoPrincipal {
-    background-color: var(--corDeFundo);
-    color: var(--corDaLetra);
-    font-family: var(--estiloDaFonte);
-    font-size: 22px;
-    font-weight: bold;
-    border-width: 0px;
-    padding: 50px;
-}
-
-#buttonFormacao {
-    border-bottom-style: solid;
-    border-bottom-width: 3px;
-    border-bottom-color: var(--corDeDestaque);
-}
-
-#divDopDaSection2DoConteudoPrincipal {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-top: 45px;
-}
-
-#pDaSection2DoConteudoPrincipal {
-    color: var(--corDaLetra);
-    font-family: var(--estiloDaFonte);
-    font-size: 22px;
-    margin-top: 25px;
-}

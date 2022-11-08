@@ -1,12 +1,25 @@
-:root {
-    --corDeFundo: #110958;
-    --corDaLetra: #fff;
-    --corDeDestaque: #f77825;
-    --estiloDaFonte: Sans-serif, Verdana, Tahoma;
-}
-
 #corpo {
     padding: 0px;
-    margin: 0px;
-    background-color: black;
+    margin: 0px;    
+}
+
+
+/*Geral*/
+:root {
+    --geral-color: #000043;
+    --geral-color-destaque: #f77825;
+}
+
+/*header*/
+:root {
+    --header-font-family: Sans-serif, Verdana, Tahoma;
+    --header-h1-font-size: 2.5rem;
+    --header-p-font-size: 1.25rem;
+}
+
+/*main*/
+:root {
+    --h1-font-size: 3rem;
+    --p-font-size: 1.5rem;
+    --font-family: Sans-serif, Verdana, Tahoma;
 }
