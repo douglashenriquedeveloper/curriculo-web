@@ -1,7 +1,9 @@
-#cabecalho {
+header {
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-between;
+    border-bottom: solid 1px #000043;
+    box-shadow:antiquewhite;
 }
 
 #h1-header {
@@ -11,12 +13,12 @@
     text-decoration: none;
 }
 
-#ulDoNavDocabecalho {
+#ul-nav-header {
     list-style: none;
     display: flex;
 }
 
-.asDosLisdoUlDoNavDoCabecalho {
+.a-li-ul-nav-header {
     color: var(--geral-color);
     font-family: var(--header-fonte-family);
     font-size: var(--header-p-font-size);

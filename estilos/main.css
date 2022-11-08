@@ -1,45 +1,44 @@
-#main {
-    background-color: var(--corDeFundo);
-}
-
 #section-um-main {
-    background-color: var(--corDeFundo);
     display: flex;
     flex-direction: column;
-    padding-top: 150px;
-    padding-bottom: 150px;
+    padding-top: 5rem;
 }
 
 #h1-section-um-main {
-    color: var(--corDaLetra);
-    font-family: var(--estiloDaFonte);
-    font-size: var(--h1-font-size);
+    color: var(--geral-color);
+    font-family: var(--main-font-family);
+    font-size: var(--main-h1-font-size);
+    margin-bottom: 0.5rem;
     margin-top: 0px;
-    margin-bottom: 10px;
 }
 
 #p-section-um-main {
-    color: var(--corDaLetra);
-    font-family: var(--estiloDaFonte);
-    font-size: var(--p-font-size);
-    margin-top: 10px;
-    margin-bottom: 10px;
+    color: var(--geral-color);
+    font-family: var(--main-font-family);
+    font-size: var(--main-p-font-size);
+    margin-bottom: 0.5rem;
+    margin-top: 0;
 }
 
 #a-section-um-main  {
-    color: var(--corDaLetra);
+    color: var(--geral-color);
+    font-family: var(--main-font-family);
+    font-size: var(--main-a-font-size);
     text-decoration: none;
-    text-align: center;
-    font-family: var(--estiloDaFonte);
-    font-size: 20px;
-    border: solid 1px var(--corDaLetra);
-    margin-top: 25px;
-    padding-top: 15px;
-    padding-bottom: 15px;
+    
+    border: solid 1px var(--geral-color-border);
+    border-radius: 1.5rem;
+    margin-top: 0.5rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
     padding-left: 90px;
     padding-right: 90px;
-    border-radius: 15px;
+    height: 1rem;
     width: 150px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 

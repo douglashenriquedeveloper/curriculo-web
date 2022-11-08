@@ -1,13 +1,19 @@
-#corpo {
+body {
     padding: 0px;
     margin: 0px;    
+    display: flex;
+    justify-content: center;
 }
 
+#dimensionamento{
+    width: 75rem;
+}
 
 /*Geral*/
 :root {
     --geral-color: #000043;
     --geral-color-destaque: #f77825;
+    --geral-color-border: #000043;;
 }
 
 /*header*/
@@ -19,7 +25,8 @@
 
 /*main*/
 :root {
-    --h1-font-size: 3rem;
-    --p-font-size: 1.5rem;
-    --font-family: Sans-serif, Verdana, Tahoma;
+    --main-font-family: Sans-serif, Verdana, Tahoma;
+    --main-h1-font-size: 2.5rem;
+    --main-p-font-size: 1.25rem;
+    --main-a-font-size: 1.25rem;
 }
