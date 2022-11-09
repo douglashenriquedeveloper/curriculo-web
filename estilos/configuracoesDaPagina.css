@@ -23,10 +23,18 @@ body {
     --header-p-font-size: 1.25rem;
 }
 
-/*main*/
+/*section-um-main*/
 :root {
-    --main-font-family: Sans-serif, Verdana, Tahoma;
-    --main-h1-font-size: 2.5rem;
-    --main-p-font-size: 1.25rem;
-    --main-a-font-size: 1.25rem;
+    --section-um-main-font-family: Sans-serif, Verdana, Tahoma;
+    --section-um-main-h1-font-size: 2.5rem;
+    --section-um-main-p-font-size: 1.25rem;
+    --section-um-main-a-font-size: 1.25rem;
+}
+
+/*section-dois-main*/
+:root { 
+    --section-dois-main-font-family: Sans-serif, Verdana, Tahoma;
+    --section-dois-main-h1-font-size: 2.5rem;
+    --section-dois-main-p-font-size: 1.25rem;
+    --section-dois-main-a-font-size: 1.25rem;
 }
