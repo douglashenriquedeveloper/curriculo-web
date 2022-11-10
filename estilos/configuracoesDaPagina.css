@@ -3,6 +3,7 @@ body {
     margin: 0px;    
     display: flex;
     justify-content: center;
+
 }
 
 #dimensionamento{
@@ -26,8 +27,8 @@ body {
 /*section-um-main*/
 :root {
     --section-um-main-font-family: Sans-serif, Verdana, Tahoma;
-    --section-um-main-h1-font-size: 2.5rem;
-    --section-um-main-p-font-size: 1.25rem;
+    --section-um-main-h1-font-size: 2.6rem;
+    --section-um-main-p-font-size: 1.3rem;
     --section-um-main-a-font-size: 1.25rem;
 }
 
